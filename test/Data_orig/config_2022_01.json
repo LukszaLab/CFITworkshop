@@ -1,0 +1,7 @@
+{
+ "vcf_dir": "VCF",
+ "ssm_dir": "VCF",
+ "tree_dir": "Trees",
+ "neo_dir": "Neoantigens",
+ "aln_dir": "Alignments_2022_01"
+}

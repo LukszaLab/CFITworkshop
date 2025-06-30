@@ -1,0 +1,1 @@
+ID	Epitope_ID	Epitope	Score_MT	Score_WT

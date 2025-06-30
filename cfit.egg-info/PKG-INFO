@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cfit
+Version: 1.0
+Summary: Cancer fitness modeling
+Home-page: 
+Author: Marta Luksza
+Author-email: lukszam@mskcc.org
+License: MIT
+Keywords: Fitness model,neontigens
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Science

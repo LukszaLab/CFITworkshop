@@ -1,0 +1,1220 @@
+[
+ {
+  "name": "s1185621T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 9.6,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1185621T",
+    "s1185621T",
+    "S1",
+    "s1185621T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1410022T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.87,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1410022T",
+    "s1410022T",
+    "S1",
+    "s1410022T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1134131T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 10.6,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1134131T",
+    "s1134131T",
+    "S1",
+    "s1134131T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1200702T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 9.36,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1200702T",
+    "s1200702T",
+    "S1",
+    "s1200702T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1320801T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.7,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1320801T",
+    "s1320801T",
+    "S1",
+    "s1320801T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1347022T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.35,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1347022T",
+    "s1347022T",
+    "S1",
+    "s1347022T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1215112T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 9.1,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1215112T",
+    "s1215112T",
+    "S1",
+    "s1215112T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1247561T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 6.02,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1247561T",
+    "s1247561T",
+    "S1",
+    "s1247561T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1365871T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.62,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1365871T",
+    "s1365871T",
+    "S1",
+    "s1365871T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1167321T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.35,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1167321T",
+    "s1167321T",
+    "S1",
+    "s1167321T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1296752T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.87,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1296752T",
+    "s1296752T",
+    "S1",
+    "s1296752T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1266132T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.86,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1266132T",
+    "s1266132T",
+    "S1",
+    "s1266132T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1209201T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.5,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1209201T",
+    "s1209201T",
+    "S1",
+    "s1209201T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1148431T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 6.25,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1148431T",
+    "s1148431T",
+    "S1",
+    "s1148431T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1319092T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.82,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1319092T",
+    "s1319092T",
+    "S1",
+    "s1319092T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1144451T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.72,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1144451T",
+    "s1144451T",
+    "S1",
+    "s1144451T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1339541T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.81,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1339541T",
+    "s1339541T",
+    "S1",
+    "s1339541T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1322212T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.69,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1322212T",
+    "s1322212T",
+    "S1",
+    "s1322212T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1399361T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 3.78,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1399361T",
+    "s1399361T",
+    "S1",
+    "s1399361T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1378141T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.82,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1378141T",
+    "s1378141T",
+    "S1",
+    "s1378141T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1231261T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.63,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1231261T",
+    "s1231261T",
+    "S1",
+    "s1231261T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1378542T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.79,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1378542T",
+    "s1378542T",
+    "S1",
+    "s1378542T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1135201T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 8.73,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1135201T",
+    "s1135201T",
+    "S1",
+    "s1135201T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1191182T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.85,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1191182T",
+    "s1191182T",
+    "S1",
+    "s1191182T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1188131T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.71,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1188131T",
+    "s1188131T",
+    "S1",
+    "s1188131T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1386251T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.44,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1386251T",
+    "s1386251T",
+    "S1",
+    "s1386251T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1289841T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 5.52,
+  "response": 1,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1289841T",
+    "s1289841T",
+    "S1",
+    "s1289841T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1357731T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 6.3,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1357731T",
+    "s1357731T",
+    "S1",
+    "s1357731T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1221762T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.68,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1221762T",
+    "s1221762T",
+    "S1",
+    "s1221762T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1120321T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 6.76,
+  "response": 1,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1120321T",
+    "s1120321T",
+    "S1",
+    "s1120321T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1311442T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.87,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1311442T",
+    "s1311442T",
+    "S1",
+    "s1311442T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1393811T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 5.13,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1393811T",
+    "s1393811T",
+    "S1",
+    "s1393811T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1365462T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 6.11,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1365462T",
+    "s1365462T",
+    "S1",
+    "s1365462T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1411462T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.55,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1411462T",
+    "s1411462T",
+    "S1",
+    "s1411462T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1341271T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.92,
+  "response": 0,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1341271T",
+    "s1341271T",
+    "S1",
+    "s1341271T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1405312T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 3.82,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1405312T",
+    "s1405312T",
+    "S1",
+    "s1405312T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1162611T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.85,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1162611T",
+    "s1162611T",
+    "S1",
+    "s1162611T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1168461T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.92,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1168461T",
+    "s1168461T",
+    "S1",
+    "s1168461T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1345101T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 5.16,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1345101T",
+    "s1345101T",
+    "S1",
+    "s1345101T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1346111T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 5.07,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1346111T",
+    "s1346111T",
+    "S1",
+    "s1346111T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1361031T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 4.88,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1361031T",
+    "s1361031T",
+    "S1",
+    "s1361031T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1329162T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.91,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1329162T",
+    "s1329162T",
+    "S1",
+    "s1329162T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1144321T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 6.23,
+  "response": 1,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1144321T",
+    "s1144321T",
+    "S1",
+    "s1144321T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1166441T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 5.98,
+  "response": 1,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1166441T",
+    "s1166441T",
+    "S1",
+    "s1166441T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1337612T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 5.4,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1337612T",
+    "s1337612T",
+    "S1",
+    "s1337612T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1199951T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.77,
+  "response": 0,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1199951T",
+    "s1199951T",
+    "S1",
+    "s1199951T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1142961T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 8.86,
+  "response": 1,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1142961T",
+    "s1142961T",
+    "S1",
+    "s1142961T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1329401T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.54,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1329401T",
+    "s1329401T",
+    "S1",
+    "s1329401T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1163971T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.83,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1163971T",
+    "s1163971T",
+    "S1",
+    "s1163971T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1274862T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.96,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1274862T",
+    "s1274862T",
+    "S1",
+    "s1274862T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1267963T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.65,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1267963T",
+    "s1267963T",
+    "S1",
+    "s1267963T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1242423T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 1.08,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1242423T",
+    "s1242423T",
+    "S1",
+    "s1242423T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1383852T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 5.7,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1383852T",
+    "s1383852T",
+    "S1",
+    "s1383852T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1199142T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 7.46,
+  "response": 1,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1199142T",
+    "s1199142T",
+    "S1",
+    "s1199142T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1389261T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 5.6,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1389261T",
+    "s1389261T",
+    "S1",
+    "s1389261T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1290491T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 7.6,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1290491T",
+    "s1290491T",
+    "S1",
+    "s1290491T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1326072T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 0.38,
+  "response": 0,
+  "dead": 1,
+  "type": "-",
+  "samples": [
+   [
+    "s1326072T",
+    "s1326072T",
+    "S1",
+    "s1326072T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "name": "s1251963T",
+  "cohort": "PDAC",
+  "PFS": 0.0,
+  "OS": 8.4,
+  "response": 1,
+  "dead": 0,
+  "type": "-",
+  "samples": [
+   [
+    "s1251963T",
+    "s1251963T",
+    "S1",
+    "s1251963T_ann.vcf",
+    "TP1",
+    "Unknown",
+    0,
+    0
+   ]
+  ]
+ }
+]

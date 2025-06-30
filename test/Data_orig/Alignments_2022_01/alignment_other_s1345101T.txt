@@ -1,0 +1,3 @@
+ID	Epitope_ID	Epitope	Score_MT	Score_WT
+MT_10764_T_C_5_12	158861	158861|polymerase	23.0	0
+MT_10764_T_C_6_13	158861	158861|polymerase	23.0	0
