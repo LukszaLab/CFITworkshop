@@ -28,7 +28,6 @@ cfit/fitness/neo_quality/Enemy.py
 cfit/fitness/neo_quality/Epitope.py
 cfit/fitness/neo_quality/EpitopeDistance.py
 cfit/fitness/neo_quality/EpitopeMask.py
-cfit/fitness/neo_quality/ModelNeoantigenQuality.py
 cfit/fitness/neo_quality/NeoantigenQuality.py
 cfit/fitness/neo_quality/QualityAttributes.py
 cfit/fitness/neo_quality/__init__.py

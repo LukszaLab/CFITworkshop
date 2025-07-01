@@ -35,12 +35,12 @@ from cfit.tree.node.SampleNode import SampleNode
 
 import matplotlib.pyplot as plt
 
-@contextlib.contextmanager
-def nostdout():
-    save_stdout = sys.stdout
-    sys.stdout = io.BytesIO()
-    yield
-    sys.stdout = save_stdout
+#@contextlib.contextmanager
+#def nostdout():
+#    save_stdout = sys.stdout
+#    sys.stdout = io.BytesIO()
+#    yield
+#    sys.stdout = save_stdout
 
 class AnalysisArgs(CoreObject):
     '''
@@ -867,8 +867,8 @@ class Analysis(CoreObject):
             destimates = {}
             for g in times:
                 km = KaplanMeierFitter()
-                with nostdout():
-                    km.fit(times[g], events[g], label=str(g))
+                #with nostdout():
+                km.fit(times[g], events[g], label=str(g))
                 kmf[g] = km
                 destimates[g] = getattr(km, "survival_function_")
             new_index = np.concatenate((destimates[1].index, destimates[0].index))
@@ -978,8 +978,8 @@ class Analysis(CoreObject):
 
             for g in times:
                 km = KaplanMeierFitter()
-                with nostdout():
-                    km.fit(times[g], events[g], label=str(g))
+                #with nostdout():
+                km.fit(times[g], events[g], label=str(g))
                 kmf[g] = km
                 destimates[g] = getattr(km, "survival_function_")
             try:

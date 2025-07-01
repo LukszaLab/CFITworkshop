@@ -5,6 +5,7 @@ Created on Oct 27, 2015
 '''
 
 import contextlib
+import copy
 import io
 import json
 import math
@@ -18,6 +19,8 @@ import pandas as pd
 from lifelines import KaplanMeierFitter
 from lifelines.statistics import multivariate_logrank_test
 from pandas import DataFrame
+from scipy.optimize import LinearConstraint
+from scipy.optimize import minimize
 from scipy.stats import mannwhitneyu
 from sklearn import metrics
 
@@ -26,6 +29,7 @@ from cfit.fitness.FitnessModel import FitnessModel
 from cfit.fitness.HLAweights import HLAweights
 from cfit.fitness.HWTHLAweights import HWTHLAweights
 from cfit.patient.PatientLine import PatientLine
+from cfit.patient.Sample import Sample
 from cfit.util.Utils import Utils
 from cfit.tree.node.SampleNode import SampleNode
 
@@ -288,6 +292,7 @@ class Analysis(CoreObject):
             neofile = os.path.join(neodir, "neoantigens_other_" + pname + ".txt")
             if os.path.exists(neofile):
                 patient.add_frame_shift_neoantigens(neofile, kd_thr=kd_thr, ns=ns)
+
             patient.distribute_neoantigens_to_clones()
             patient.set_exclusive_mutations()
 
@@ -862,8 +867,8 @@ class Analysis(CoreObject):
             destimates = {}
             for g in times:
                 km = KaplanMeierFitter()
-                with nostdout():
-                    km.fit(times[g], events[g], label=str(g))
+                #with nostdout():
+                km.fit(times[g], events[g], label=str(g))
                 kmf[g] = km
                 destimates[g] = getattr(km, "survival_function_")
             new_index = np.concatenate((destimates[1].index, destimates[0].index))
@@ -973,8 +978,8 @@ class Analysis(CoreObject):
 
             for g in times:
                 km = KaplanMeierFitter()
-                with nostdout():
-                    km.fit(times[g], events[g], label=str(g))
+                #with nostdout():
+                km.fit(times[g], events[g], label=str(g))
                 kmf[g] = km
                 destimates[g] = getattr(km, "survival_function_")
             try:
@@ -1279,11 +1284,8 @@ class Analysis(CoreObject):
         plt.close()
 
 
-    def plot_survival(self, outfile="", quantile=0.5, prism=False, pval=None, OS=True, thrval=None, show=False):
+    def plot_survival(self, quantile=0.5, prism=False, pval=None, OS=True, thrval=None, show=False, outfile=None):
         '''
-
-        :param outfile: str
-            the pdf file to output the plot to
 
         :param quantile: float
             split fraction, defaults to median, belongs to [0,1]
@@ -1294,7 +1296,11 @@ class Analysis(CoreObject):
 
         :param OS: bool
 
-        :thrval: float
+        :param thrval: float
+
+        :param outfile: str
+            the pdf file to output the plot to
+
 
         '''
 
@@ -1324,7 +1330,8 @@ class Analysis(CoreObject):
         else:
             medfit = thrval
 
-        odir = os.path.dirname(outfile)
+        if outfile:
+            odir = os.path.dirname(outfile)
         self.monthLimit = 10000
         #        try:
         if True:
@@ -1395,9 +1402,10 @@ class Analysis(CoreObject):
             new_index = np.unique(new_index)
             kmf.fit(T[~ix], E[~ix], label=r'$\log n(\tau) > $' + str(round(medfit, 3)) + " (n=" + str(len(pos)) + ")")
             ax = kmf.plot(show_censors=True)
-            title = "q = "+str(quantile)
+            title = ""
+            #title = "q = "+str(quantile)
             if not pval is None:
-                title = ", p-value = " + str(pval)
+                title = "p-value = " + str(pval)
 
             ax.set_title(title)
             kmf.fit(T[ix], E[ix], label=r'$\log n(\tau) \leq$' + str(round(medfit, 3)) + " (n=" + str(len(neg)) + ")")
@@ -1405,8 +1413,8 @@ class Analysis(CoreObject):
             plt.ylim((0., 1.))
             if show:
                 plt.show()
-            plt.savefig(outfile)
-
+            if outfile:
+                plt.savefig(outfile)
             plt.close()
 
     #        except:
