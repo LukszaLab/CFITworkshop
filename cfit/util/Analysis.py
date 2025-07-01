@@ -1284,11 +1284,8 @@ class Analysis(CoreObject):
         plt.close()
 
 
-    def plot_survival(self, outfile="", quantile=0.5, prism=False, pval=None, OS=True, thrval=None, show=False):
+    def plot_survival(self, quantile=0.5, prism=False, pval=None, OS=True, thrval=None, show=False, outfile=None):
         '''
-
-        :param outfile: str
-            the pdf file to output the plot to
 
         :param quantile: float
             split fraction, defaults to median, belongs to [0,1]
@@ -1299,7 +1296,11 @@ class Analysis(CoreObject):
 
         :param OS: bool
 
-        :thrval: float
+        :param thrval: float
+
+        :param outfile: str
+            the pdf file to output the plot to
+
 
         '''
 
@@ -1329,7 +1330,8 @@ class Analysis(CoreObject):
         else:
             medfit = thrval
 
-        odir = os.path.dirname(outfile)
+        if outfile:
+            odir = os.path.dirname(outfile)
         self.monthLimit = 10000
         #        try:
         if True:
@@ -1410,8 +1412,8 @@ class Analysis(CoreObject):
             plt.ylim((0., 1.))
             if show:
                 plt.show()
-            plt.savefig(outfile)
-
+            if outfile:
+                plt.savefig(outfile)
             plt.close()
 
     #        except:
