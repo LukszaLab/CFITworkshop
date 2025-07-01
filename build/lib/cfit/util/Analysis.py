@@ -5,7 +5,6 @@ Created on Oct 27, 2015
 '''
 
 import contextlib
-import copy
 import io
 import json
 import math
@@ -19,8 +18,6 @@ import pandas as pd
 from lifelines import KaplanMeierFitter
 from lifelines.statistics import multivariate_logrank_test
 from pandas import DataFrame
-from scipy.optimize import LinearConstraint
-from scipy.optimize import minimize
 from scipy.stats import mannwhitneyu
 from sklearn import metrics
 
@@ -29,18 +26,17 @@ from cfit.fitness.FitnessModel import FitnessModel
 from cfit.fitness.HLAweights import HLAweights
 from cfit.fitness.HWTHLAweights import HWTHLAweights
 from cfit.patient.PatientLine import PatientLine
-from cfit.patient.Sample import Sample
 from cfit.util.Utils import Utils
 from cfit.tree.node.SampleNode import SampleNode
 
 import matplotlib.pyplot as plt
 
-@contextlib.contextmanager
-def nostdout():
-    save_stdout = sys.stdout
-    sys.stdout = io.BytesIO()
-    yield
-    sys.stdout = save_stdout
+#@contextlib.contextmanager
+#def nostdout():
+#    save_stdout = sys.stdout
+#    sys.stdout = io.BytesIO()
+#    yield
+#    sys.stdout = save_stdout
 
 class AnalysisArgs(CoreObject):
     '''
