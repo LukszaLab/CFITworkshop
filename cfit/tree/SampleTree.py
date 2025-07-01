@@ -1180,16 +1180,6 @@ class SampleTree(CoreObject):
     # write
     ##############
 
-    def toJSON_(self):
-#        jstree = self.tree.toJSON()
-        frequencies = {}
-        for node in self.nodes.values():
-            frequencies[node.id] = {"X": node.X, "x": node.Y}
-        #js = {"tree": jstree, "frequencies": frequencies}
-        js = {"frequencies": frequencies}
-        return js
-
-
     def toJSON(self):
         jstree = self.tree.toJSON()
         nodes = [jstree["topology"]]

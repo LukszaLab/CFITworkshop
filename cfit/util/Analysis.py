@@ -1402,7 +1402,7 @@ class Analysis(CoreObject):
             ax = kmf.plot(show_censors=True)
             title = "q = "+str(quantile)
             if not pval is None:
-                title = ", p-value = " + str(pval)
+                title = "p-value = " + str(pval)
 
             ax.set_title(title)
             kmf.fit(T[ix], E[ix], label=r'$\log n(\tau) \leq$' + str(round(medfit, 3)) + " (n=" + str(len(neg)) + ")")
