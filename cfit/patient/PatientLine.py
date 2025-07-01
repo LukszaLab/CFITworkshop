@@ -406,6 +406,7 @@ class PatientLine(Patient):
 #                neo = neoid[pep_allele_id]
 #            else:
             neo = Neoantigen(params)
+            neo.gene = self.mutations[neo.mid].gene
             #neoid[pep_allele_id] = neo
             for tp in self.timePoints:
                 tpoint = self.timePoints[tp]
