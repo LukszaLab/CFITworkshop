@@ -401,12 +401,12 @@ class PatientLine(Patient):
             params = [nid, peptide_id, line.MUTATION_ID, None, line.WT_Peptide, line.MT_Peptide, line.Allele,
                       line.WT_Score, line.MT_Score, None, 1]
             params[0] = nid
-            pep_allele_id = peptide_id + "_" + line.Allele
-            if pep_allele_id in neoid:
-                neo = neoid[pep_allele_id]
-            else:
-                neo = Neoantigen(params)
-                neoid[pep_allele_id] = neo
+#            pep_allele_id = peptide_id + "_" + line.Allele
+#            if pep_allele_id in neoid:
+#                neo = neoid[pep_allele_id]
+#            else:
+            neo = Neoantigen(params)
+            #neoid[pep_allele_id] = neo
             for tp in self.timePoints:
                 tpoint = self.timePoints[tp]
                 tpoint.add_neoantigen(neo)

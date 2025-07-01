@@ -292,7 +292,6 @@ class Analysis(CoreObject):
             neofile = os.path.join(neodir, "neoantigens_other_" + pname + ".txt")
             if os.path.exists(neofile):
                 patient.add_frame_shift_neoantigens(neofile, kd_thr=kd_thr, ns=ns)
-
             patient.distribute_neoantigens_to_clones()
             patient.set_exclusive_mutations()
 
