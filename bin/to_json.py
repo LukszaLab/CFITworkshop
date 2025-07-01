@@ -26,7 +26,7 @@ if __name__ == "__main__":
     else:
         ns = [int(x) for x in (args.ns).split(",")]
 
-    odir = os.path.join("../NeoantigenEditing/data/Patient_data")
+    odir = os.path.join("../NeoantigenEditing/data/Data_PDAC_recurrence")
     if not os.path.exists(odir):
         os.mkdir(odir)
 
