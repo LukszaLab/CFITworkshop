@@ -1402,7 +1402,8 @@ class Analysis(CoreObject):
             new_index = np.unique(new_index)
             kmf.fit(T[~ix], E[~ix], label=r'$\log n(\tau) > $' + str(round(medfit, 3)) + " (n=" + str(len(pos)) + ")")
             ax = kmf.plot(show_censors=True)
-            title = "q = "+str(quantile)
+            title = ""
+            #title = "q = "+str(quantile)
             if not pval is None:
                 title = "p-value = " + str(pval)
 
