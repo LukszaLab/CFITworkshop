@@ -36,7 +36,7 @@ from cfit.tree.node.SampleNode import SampleNode
 import matplotlib.pyplot as plt
 
 #@contextlib.contextmanager
-#def nostdout():
+#defnostdout ():
 #    save_stdout = sys.stdout
 #    sys.stdout = io.BytesIO()
 #    yield

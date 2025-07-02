@@ -29,7 +29,7 @@ class NeoantigenQuality(CoreObject):
 
         pass
 
-    def compute_neoantigen_sample_quality(self, neo, sample, args, **kwargs):
+    def compute_neoantigen_sample_quality(self, neo, sample, **kwargs):
         '''
 
         Computes quality of the neoantigen, modifies sample.neoantigenQualities attribute
@@ -38,8 +38,6 @@ class NeoantigenQuality(CoreObject):
 
         :param sample: cfit.patient.Sample
 
-        :param args: list
-
         :param kwargs: dict
 
         :return: float
@@ -47,7 +45,7 @@ class NeoantigenQuality(CoreObject):
 
         pass
 
-    def initialize_neoantigens(self, anl, args, **kwargs):
+    def initialize_neoantigens(self, anl, **kwargs):
         '''
         Initializes neoantigen quality related data
 
